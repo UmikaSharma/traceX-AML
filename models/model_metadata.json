@@ -1,0 +1,17 @@
+{
+    "model_type": "Pipeline(FunctionTransformer(log1p) + IsolationForest)",
+    "features": [
+        "amount_paid",
+        "amount_received",
+        "velocity_1h",
+        "velocity_24h"
+    ],
+    "sample_size": 150000,
+    "contamination": 0.025,
+    "n_estimators": 120,
+    "trained_at": "2026-10-13T23:38:07.134335",
+    "total_flagged": 3750,
+    "min_score": -0.13661325996412887,
+    "max_score": 0.29061980179951596,
+    "threshold_score": -0.6755529303523766
+}

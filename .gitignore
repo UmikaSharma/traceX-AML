@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Environment variables & secrets
+.env
+
+# Large model files / database dumps (optional, exclude if >100MB)
+*.csv
+*.parquet
+
+# Streamlit local runtime state
+.streamlit/secrets.toml
